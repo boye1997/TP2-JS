@@ -28,13 +28,13 @@ body {
     padding: 2rem 4rem;
 }
 
-.container .leftPart > p {
+p {
     font-size: 1.2rem;
     margin-bottom: 15px;
     padding: 0.5rem 1rem;
 }
 
-.container .leftPart > p.active {
+p.active {
     background-color: blue;
     color: #FFF;
 }
