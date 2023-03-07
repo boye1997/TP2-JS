@@ -11,3 +11,14 @@ function generateur(){
 } 
 generateur()
 
+//survoler un element et le selectionner
+let survol=document.querySelectorAll('p')
+for(let i=0; i<survol.length; i++){
+    survol[i].addEventListener("mouseenter", () => {
+    survol[i].className = "active";
+    })
+    survol[i].addEventListener("mouseleave", () => {
+    survol[i].className = "p";
+    })
+}
+
